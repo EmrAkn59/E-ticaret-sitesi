@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.WebUI\\BuPazardanAl.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\BuPazardanAl.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\BuPazardanAl.Business.csproj",
+        "projectName": "BuPazardanAl.Business",
+        "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\BuPazardanAl.Business.csproj",
+        "packagesPath": "C:\\Users\\emira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\BuPazardanAl.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\BuPazardanAl.DataAccess.csproj"
+              },
+              "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj": {
+                "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\BuPazardanAl.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\BuPazardanAl.Core.csproj",
+        "projectName": "BuPazardanAl.Core",
+        "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\BuPazardanAl.Core.csproj",
+        "packagesPath": "C:\\Users\\emira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\BuPazardanAl.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\BuPazardanAl.DataAccess.csproj",
+        "projectName": "BuPazardanAl.DataAccess",
+        "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\BuPazardanAl.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\emira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj": {
+                "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Sentry.AspNetCore": {
+              "target": "Package",
+              "version": "[3.40.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj",
+        "projectName": "BuPazardanAl.Entities",
+        "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\BuPazardanAl.Entities.csproj",
+        "packagesPath": "C:\\Users\\emira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\BuPazardanAl.Core.csproj": {
+                "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Core\\BuPazardanAl.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.WebUI\\BuPazardanAl.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.WebUI\\BuPazardanAl.WebUI.csproj",
+        "projectName": "BuPazardanAl.WebUI",
+        "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.WebUI\\BuPazardanAl.WebUI.csproj",
+        "packagesPath": "C:\\Users\\emira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\BuPazardanAl.Business.csproj": {
+                "projectPath": "C:\\Users\\emira\\Desktop\\BuPazardanAl - Kopya\\BuPazardanAl.Business\\BuPazardanAl.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
